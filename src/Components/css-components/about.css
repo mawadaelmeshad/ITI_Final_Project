@@ -1,0 +1,103 @@
+.about{
+    font-family: "Poppins", sans-serif;
+    margin-top: 8rem;
+    overflow: hidden;
+}
+.top{
+    margin-top: 4rem;
+    padding-left: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 81vw;
+}
+.top .p2{
+    padding-left: 1rem;
+}
+.top .p1,
+.top .p2{
+    color: black;
+}
+.contain-about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.about .contain-words{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+}
+.about .contain-words p{
+    margin-left: 6rem;
+    margin-right: 7rem;
+    text-align: left;
+    margin-top: 3rem;
+    color: black;
+}
+.about .contain-words .title{
+    margin-left: 6rem;
+}
+.about .contain-img img{
+    margin-top: -3rem;
+    width: 33rem;
+    margin-left: 4rem;
+}
+.about .features2{
+    margin-left: 1rem;
+    margin-right: 1rem
+}
+.about .features2 .whole-card{
+    width: 15rem;
+    height: 15rem;
+    border:  1px solid gray;
+    border-radius: 8px;
+    color: black;
+}
+.about .features2 .whole-card:hover{
+    cursor: pointer;
+    background-color: #DB4444;
+    color: white;
+    box-shadow: 5px 5px 5px #c2bfbf;
+
+}
+
+@media(max-width: 1199px){
+    .about .contain-words p{
+        width: fit-content;
+    }
+    .about .contain-img img{
+        margin-top: -3rem;
+        width: 20rem;
+        margin-left: 6rem;
+    }
+}
+@media(max-width:990px){
+    .about .contain-words p{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .about .contain-words .title{
+        margin-left: 3rem;
+        margin-right: 3rem;
+
+    }
+
+}
+@media(max-width:640px){
+    .about .contain-words p{
+        margin-left:1rem;
+        margin-right: 1rem;
+    }
+    .about .contain-words .title{
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+    .about .contain-img img{
+       margin-left: auto;
+       margin-right: auto;
+    }
+}

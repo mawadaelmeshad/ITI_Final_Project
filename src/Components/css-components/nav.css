@@ -1,0 +1,181 @@
+#my-nav{
+    font-family: "Poppins", sans-serif;
+    margin-top: 1.5rem;
+    background-color: white;
+    box-shadow: none;
+    border-bottom: 1px solid #cac8c8;
+    color: black;
+    overflow: visible;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+#logo{
+    font-weight: bold;
+    margin-right: 10rem;
+    margin-top: -4px;
+}
+#home{
+    text-decoration: underline;
+    color: black;
+    margin-left: 4rem;
+}
+.item{
+    color: black !important;
+    margin-top: 1.5rem;
+    /* margin-right: 2.5rem; */
+    position: relative;
+}
+.item.active::after{
+    position: absolute;
+    content: "";
+    background-color: black;
+    width: 3.3rem;
+    height: .2px;
+    top: 96%;
+    left: 0;
+}
+#search-input{
+    position: relative;
+    margin-left: 7rem;
+    background-color: #F5F5F5;
+    border: none;
+    color: #7D8184;
+    width: 16rem;
+    font-size: .9rem;
+}
+.icon-search{
+    position: absolute;
+    top: 9px;
+    left: 92%;
+    font-size: 1rem;
+    font-weight:100;
+    display: block;
+    
+}
+.icons{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 1rem;
+    margin-top: 9px;
+    font-size: 1.2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.heart-icon{
+    position: relative;
+    margin:0;
+    color: black;
+}
+.heart-icon::after{
+    content: attr(current-count);
+    position: absolute;
+    top: -6px;
+    right: -10%;
+    width: 16px;
+    height: 16px;
+    border-radius: 63%;
+    background-color: #DB4444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 14px;
+    color: white;
+    font-size: .6rem;
+}
+.heart-icon[current-count='0']::after {
+    display: none; /* Hide when count is 0 */
+}
+.icon-link{
+    margin-top: -4px;
+}
+.user-icon {
+    position: relative;
+    /* margin-top: -4px; */
+    cursor: pointer;
+    display: block;
+}
+.menu-user {
+    display: none;
+    position: absolute;
+    /* right: .2rem; */
+    top: 90%;
+    left: -6rem;
+    transform: translateX(-50%); 
+    /* background-color: rgb(67, 64, 64); */
+    background: linear-gradient(rgba(11, 10, 10, 0.8), rgba(39, 38, 38, 0.9)); /* Less transparent gradient */
+    color: white;
+    border-radius: 4px;
+    padding: 1rem;
+    width: 220px;
+    z-index: 2;
+    font-size: 1rem;
+    cursor:default;
+}
+.menu-user.active {
+    display: block;
+}
+.menu-user .line{
+    display: flex;
+    gap: .5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.menu-user .line:hover{
+    background-color: white;
+    color: black;
+}
+.menu-user .line span:hover{
+    background-color: white;
+    color: black;
+}
+.menu-user .line .link-list{
+    color: white;
+}
+
+.line .icon-line{
+    padding-top: .3rem;
+}
+@media(max-width:1199px){
+    .item{
+        color: black !important;
+        margin-top: 3rem !important;
+        /* margin-right: 2.5rem; */
+        position: relative;
+    }
+}
+@media(max-width:990px){
+    #search-input{
+        display: none;
+        
+    }
+    .form-search{
+        display: none;
+    }
+    .icon-search{
+        visibility: hidden;
+    }
+    .icons{
+        margin-left: .2rem;
+    }
+    #my-nav{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .menu-user {
+        left: 6rem;
+    }
+
+
+}
+@media(max-width:640px){
+     #my-nav{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .toggeler-icon{
+        margin-right: -1rem;
+    }
+
+}

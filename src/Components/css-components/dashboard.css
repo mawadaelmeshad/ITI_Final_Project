@@ -1,0 +1,35 @@
+.dashboard .table-container{
+    width: 60%;
+    margin: auto;
+    padding-top: 4rem;
+    overflow-x: scroll;
+}
+.dashboard .tr-head{
+    font-weight:900;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.dashboard .tr{
+    text-align: center;
+}
+.dashboard .orange-btn{
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    width: 13rem;
+    height: 2.8rem;
+    background-color: #DB4444;
+    border: 1px solid #DB4444;
+    border-radius: 4px;
+    color: white;
+    border-radius: 2px;
+    margin-left: 4rem;
+    border-radius: 8px;
+
+}
+.dashboard .orange-btn:hover{
+    cursor: pointer;
+    opacity: .5;
+    background-color: #DB4444;
+}

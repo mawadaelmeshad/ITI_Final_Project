@@ -1,0 +1,285 @@
+.flash-main{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: 5rem;
+    overflow: hidden;
+    justify-content: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    font-weight: normal;
+
+
+}
+.flash{
+    text-align: left;
+}
+.card-container{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.title{
+    /* margin-left: 6rem; */
+    color: black;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.custom-hr{
+    width: 98%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.flash .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-left: 8rem;
+    margin-right: 8rem; */
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    clear: right;
+}
+.flash .small-title{
+    color: #DB4444;
+    font-weight: bold;
+    margin-left: 2rem;
+    padding-left: 1rem;
+    text-transform: capitalize;
+    position: relative;
+}
+.flash .small-title::before{
+    position: absolute;
+    content: "";
+    height: 135%;
+    background-color: #DB4444;
+    width: 18px;
+    border-radius: 5px;
+    margin-left: 15px;
+    top: -15%;
+    left: -2rem
+}
+
+
+.flash .custom-card{
+    position: relative;
+    background-color: #F5F5F5;
+    width: 17rem;
+    height: 17rem;
+    
+}
+.flash .card-img{
+    padding: 2rem;
+    width: 14rem;
+    height: 14rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flash .card-img:hover{
+    opacity: .5;
+}
+.flash .percentage{
+    background-color: #DB4444;
+    color: white;
+    font-size: .9rem;
+    border-radius: 4px;
+    padding: 4px 12px;
+    position: absolute;
+    top: 7%;
+    left: 6%;
+}
+.flash .icons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3%;
+    left:57%;
+    align-items: center;
+    gap: 1rem;
+}
+.flash .icon-fav{
+    cursor: pointer;
+}
+.flash .icons span{
+    background-color: white;
+    border-radius: 100%;
+    width: 2rem;
+    text-align: center;
+}
+.flash .flash-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.flash .custom-card .add-to-cart{
+    background-color: black;
+    color: white;
+    height: 3rem;
+    width: 17rem;
+    font-size: 1rem;
+    /* margin-top: 6rem; */
+
+}
+.flash .custom-card :hover{
+    cursor: pointer;
+    transition: ease .5s;
+}
+.flash .price{
+    color: red;
+    font-weight: normal;
+    margin-right: 1rem;
+}
+.flash .stars .star{
+    color: #FFAD33;
+
+}
+.flash-main .orange-btn{
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    width: 13rem;
+    height: 2.8rem;
+    background-color: #DB4444;
+    border: 1px solid #DB4444;
+    border-radius: 4px;
+    color: white;
+    border-radius: 2px;
+
+}
+.flash-main .orange-btn:hover{
+    cursor: pointer;
+    opacity: .5;
+    background-color: #DB4444;
+}
+.flash .custom-card-icon{
+    width: 10rem;
+    height: 9rem;
+    border: 1px solid #cac8c8;
+    border-radius: 4px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 2rem;
+}
+.flash .custom-card-icon .icon-category{
+    font-size: 3rem;
+}
+.flash .custom-card-icon p{
+    padding-top: 1rem;
+}
+.flash-main .img{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: -5rem;
+}
+.cards .card2 :hover{
+    cursor: pointer;
+    background-color:#DB4444;
+    color: white;
+
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+}
+.features .whole-card{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+    justify-content: center;
+    
+}
+.features .whole-card h2{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.features .whole-card p{
+    font-size: .9rem;
+}
+.features .icon-container{
+    background-color: black;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 1rem;
+    padding-bottom: rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    color: white;
+    position: relative;
+}
+.features .icon-container::before{
+    position: absolute;
+    content: "";
+    background-color: rgb(181, 178, 178);
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    top: -21%;
+    z-index: -1;
+    left: -20%;
+}
+.features .icon-container .icon-inside{
+    font-size: 1.5rem;
+}
+.best-title{
+    position: relative;
+}
+.flash .view-btn{
+    /* position: absolute;
+    left: 64%;
+    top: -84%; */
+    width: 10rem;
+    float:right;
+    margin-right: 6rem;
+    margin-bottom: 4rem;
+}
+@media(min-width:991px){
+    .flash-main .img{
+       margin-left: auto;
+       margin-right: auto;
+     }
+}
+@media(max-width:990px){
+    .flash .icons{
+        left:80%;
+    }
+    .flash-main .img{
+       display: none;
+    }
+   
+}
+@media(max-width:640px){
+    .flash-main{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    
+    }
+   
+}
+/* @media(max-width:375px){
+    .title{
+        margin-left: 4rem;
+    }
+    .flash .small-title{
+        margin-left: 5.2rem;
+    }
+    .flash .small-title::before{
+        margin-left: 15px;
+    }
+} */

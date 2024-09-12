@@ -1,0 +1,21 @@
+.product-details{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.product-details .img{
+    width: 50rem;
+}
+.product-details .img img{
+    width: 100%;
+}
+.product-details p{
+    font-size: 1.1rem;
+}
+.product-details p span{
+    color: #DB4444;
+    font-weight: 800;
+}
